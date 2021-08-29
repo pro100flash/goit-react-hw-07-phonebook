@@ -14,8 +14,6 @@ import {
   changeFilter,
 } from "./actions";
 
-const initialContactList = listOfContact;
-
 const items = createReducer([], {
   [fetchContactSuccess]: (_, { payload }) => payload,
   [addContactSuccess]: (state, { payload }) => [...state, payload],
