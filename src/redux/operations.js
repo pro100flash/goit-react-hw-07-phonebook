@@ -1,10 +1,12 @@
 import axios from "axios";
+import shortid from "shortid";
 import * as actions from "./actions";
 
 axios.defaults.baseURL = "http://localhost:7777";
 
 export const addContact = (name, number) => (dispatch) => {
   const contact = {
+    id: shortid(),
     name,
     number,
   };
