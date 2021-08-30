@@ -19,12 +19,6 @@ const middleware = [
   logger,
 ];
 
-const phonebookPersistConfig = {
-  key: "contacts",
-  storage,
-  blacklist: ["filter"],
-};
-
 export const store = configureStore({
   reducer: {
     contacts: reducers,
