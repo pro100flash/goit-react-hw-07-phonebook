@@ -2,7 +2,7 @@ import axios from "axios";
 import shortid from "shortid";
 import * as actions from "./actions";
 
-axios.defaults.baseURL = "http://localhost:7777";
+axios.defaults.baseURL = "https://612cbf07ab461c00178b5e8f.mockapi.io";
 
 export const addContact = (name, number) => (dispatch) => {
   const contact = {
