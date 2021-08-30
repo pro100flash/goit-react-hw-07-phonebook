@@ -36,3 +36,7 @@ export const fetchContacts = () => (dispatch) => {
     .then(({ data }) => dispatch(actions.fetchContactSuccess(data)))
     .catch((error) => dispatch(actions.fetchContactError(error)));
 };
+
+const ololo = (rofl) => {
+  fofl = pidor;
+};
