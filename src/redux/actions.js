@@ -15,13 +15,13 @@ export const deleteContactSuccess = createAction(
 export const deleteContactError = createAction("phonebook/deleteContactError");
 
 export const fetchContactRequest = createAction(
-  "phonebook/deleteContactRequest"
+  "phonebook/fetchContactRequest"
 );
 
 export const fetchContactSuccess = createAction(
-  "phonebook/deleteContactSuccess"
+  "phonebook/fetchContactSuccess"
 );
 
-export const fetchContactError = createAction("phonebook/deleteContactError");
+export const fetchContactError = createAction("phonebook/fetchContactError");
 
 export const changeFilter = createAction("phonebook/changeFilter");
